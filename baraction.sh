@@ -2,17 +2,17 @@
 # baraction.sh for spectrwm status bar
 
 dte() {
-    d="$(date +"%A, %B %d %l:%M%p")"
-    echo -e "$d"
+    dte="$(date +"%A, %B %d %l:%M%p")"
+    echo -e "$dte"
 }
 
 vol() {
-    v=$(mixerctl -n outputs.master)
-    echo -e "VOL: $v"
+    vol=$(mixerctl -n outputs.master)
+    echo -e "VOL: $vol"
 }
 
 SLEEP_SEC=5
-
+#this refreshes the info UwUr
 while :; do
     echo "$(vol) | $(dte)"
     sleep $SLEEP_SEC
