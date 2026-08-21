@@ -39,7 +39,7 @@
   ((c-mode . eglot-ensure)
    (c++-mode . eglot-ensure))
   :config
-  (add-to-list 'egloot-server-programs '((c20-mode c++-mode c-mode) "clangd")))
+  (add-to-list 'eglot-server-programs '((c20-mode c++-mode c-mode) "clangd")))
 
 ;; --- autocompletion stuff ---
 (use-package company
