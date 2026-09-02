@@ -1,0 +1,38 @@
+[font]
+size = 16.0
+
+[font.normal]
+family = "spleen"
+style = "Regular"
+
+[window.padding]
+x = 15
+y = 15
+
+[window]
+opacity = 0.9
+
+[colors.primary]
+background = "#0c0a20"
+foreground = "#f2f3f7"
+dim_foreground = "#7984D1"
+
+[colors.normal]
+black   = "#131033"
+red     = "#e61f44"
+green   = "#a7da1e"
+yellow  = "#ffd400"
+blue    = "#1ea8fc"
+magenta = "#ff2afc"
+cyan    = "#42c6ff"
+white   = "#919ad9"
+
+[colors.bright]
+black   = "#1f1147"
+red     = "#cf433e"
+green   = "#A875FF"
+yellow  = "#ffd400"
+blue    = "#1ea8fc"
+magenta = "#df85ff"
+cyan    = "#42c6ff"
+white   = "#f2f3f7"

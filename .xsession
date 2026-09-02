@@ -1,4 +1,11 @@
 #! /bin/sh
+
 setxkbmap -layout latam
-exec spectrwm
-xrandr --output default --mode 1920x1080
+
+pipewire &
+wireplumber &
+pipewire-pulse &
+
+exec dbus-launch --exit-with-session spectrwm
+
+/home/raven/.config/polybar/launch.sh &
