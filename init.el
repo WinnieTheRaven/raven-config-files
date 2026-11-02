@@ -74,7 +74,9 @@
 ;; --- column numbers and font stuff ---
 (column-number-mode 1)
 (set-face-attribute 'default nil
-		    :font "spleen 8x16-16")
+		    :family "Iosevka SS10"
+		    :weight 'bold
+		    :height 160)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
